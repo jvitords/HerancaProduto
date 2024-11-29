@@ -42,4 +42,8 @@ public class Produto {
 	public String etiqueta () {
 		return nome + " - R$" + preco;
 	}
+	
+	public String toString() {
+		return "Produto: " + nome;
+	}
 }
